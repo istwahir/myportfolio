@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="NovaPay dashboard mockup">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1e1b4b"/>
+      <stop offset="1" stop-color="#312e81"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4f46e5"/>
+      <stop offset="1" stop-color="#7c3aed"/>
+    </linearGradient>
+    <linearGradient id="area" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#818cf8" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#818cf8" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="360" fill="url(#bg)"/>
+  <circle cx="560" cy="40" r="120" fill="#6366f1" opacity="0.18"/>
+
+  <!-- window chrome -->
+  <rect x="32" y="28" width="576" height="304" rx="16" fill="#0f172a" opacity="0.72"/>
+  <circle cx="56" cy="48" r="4" fill="#f87171"/>
+  <circle cx="72" cy="48" r="4" fill="#fbbf24"/>
+  <circle cx="88" cy="48" r="4" fill="#34d399"/>
+
+  <!-- side rail -->
+  <rect x="52" y="70" width="96" height="240" rx="10" fill="#1e293b" opacity="0.85"/>
+  <rect x="64" y="86" width="64" height="10" rx="5" fill="#6366f1"/>
+  <rect x="64" y="110" width="72" height="8" rx="4" fill="#334155"/>
+  <rect x="64" y="128" width="56" height="8" rx="4" fill="#334155"/>
+  <rect x="64" y="146" width="66" height="8" rx="4" fill="#334155"/>
+  <rect x="64" y="164" width="48" height="8" rx="4" fill="#334155"/>
+  <rect x="64" y="196" width="72" height="40" rx="8" fill="#312e81"/>
+
+  <!-- headline -->
+  <rect x="168" y="76" width="150" height="12" rx="6" fill="#e2e8f0"/>
+  <rect x="168" y="98" width="92" height="8" rx="4" fill="#475569"/>
+
+  <!-- stat chips -->
+  <rect x="168" y="126" width="128" height="66" rx="10" fill="url(#card)"/>
+  <rect x="182" y="142" width="52" height="7" rx="3.5" fill="#c7d2fe" opacity="0.9"/>
+  <rect x="182" y="158" width="78" height="14" rx="5" fill="#ffffff"/>
+
+  <rect x="308" y="126" width="128" height="66" rx="10" fill="#1e293b"/>
+  <rect x="322" y="142" width="46" height="7" rx="3.5" fill="#64748b"/>
+  <rect x="322" y="158" width="66" height="14" rx="5" fill="#e2e8f0"/>
+
+  <rect x="448" y="126" width="128" height="66" rx="10" fill="#1e293b"/>
+  <rect x="462" y="142" width="56" height="7" rx="3.5" fill="#64748b"/>
+  <rect x="462" y="158" width="42" height="14" rx="5" fill="#93c5fd"/>
+
+  <!-- chart -->
+  <rect x="168" y="208" width="408" height="102" rx="10" fill="#111c33"/>
+  <path d="M182 290 L232 268 L282 278 L332 244 L382 254 L432 222 L482 232 L532 206 L560 214 L560 296 L182 296 Z" fill="url(#area)"/>
+  <path d="M182 290 L232 268 L282 278 L332 244 L382 254 L432 222 L482 232 L532 206 L560 214" fill="none" stroke="#818cf8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="432" cy="222" r="4.5" fill="#a5b4fc"/>
+  <rect x="182" y="300" width="34" height="5" rx="2.5" fill="#334155"/>
+  <rect x="236" y="300" width="34" height="5" rx="2.5" fill="#334155"/>
+  <rect x="290" y="300" width="34" height="5" rx="2.5" fill="#334155"/>
+</svg>
